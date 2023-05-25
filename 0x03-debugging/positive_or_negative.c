@@ -1,21 +1,11 @@
- #include <stdlib.h>
- #include <time.h>
- #include <stdio.h>
- /**
-  * main - Determine if a random number is positive, negative or zero.
-  *
-  * Return: Always 0 (Success)
-  */
-int main(void)
+#include <stdio.h>
+
+void positive_or_negative(int i)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-/* your code goes there */
-if (n < 0)
-{
-printf("%d is %s\n", n, "negative");
+if (i > 0)
+printf("%d is positive\n", i);
+else if (i< 0)
+printf("%d is negative\n", i);
+else
+printf("%d is zero\n", i);
 }
-else if (n > 0)
-{
-printf("%d is %s\n", n, "positive");
