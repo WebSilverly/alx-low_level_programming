@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-* void puts2(char *str) - a function that prints every other character,
-*followed by a new line.
+*puts2(char *str)-  prints every other character,followed by a new line.
 *@str: input
 * Return: print
 */
