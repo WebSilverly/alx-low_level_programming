@@ -1,7 +1,7 @@
+#ifndef MAIN_H
 #define MAIN_H
 
 #include <stdio.h>
-#include <unistd.h>
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
@@ -15,20 +15,11 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 int _putchar(char c);
 
-
-
-
-
-
-
-
-
 void positive_or_negative(int i);
 
 int largest_number(int a, int b, int c);
 
 int convert_day(int month, int day);
-
 
 void print_remaining_days(int month, int day, int year);
 #endif /* MAIN_H */
