@@ -1,0 +1,1 @@
+Today on structures, typedef
